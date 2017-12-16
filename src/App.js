@@ -13,29 +13,25 @@ class App extends Component {
 
     return (
       <div>
-        <div className="my-nav" style={{display:"none"}}>
+        <div className="my-nav" >
           <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
-            <button className="navbar-toggler navbar-toggler-right" direction="rtl" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler navbar-toggler-right"  type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
-            <a className="navbar-brand" href="#">האתר שלי</a>
-            <div className="collapse navbar-collapse" style={{ display: "flex", justifyContent: "right", direction: "rtl !important" }} id="navbarText">
-              <ul className="navbar-nav mr-auto" style={{ direction: "rtl !important" }}>
+            <a className="navbar-brand" style={{marginRight:"30px"}}>סנאפגרופ</a>
+            <div className="collapse navbar-collapse"  id="navbarText">
+              <ul className="navbar-nav mr-auto" >
                 <li className="nav-item">
-                 
+                  <a className="nav-link" href="#">קצת עלינו</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">תכונות</a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#">מחירים</a>
+                  <a className="nav-link" href="#">קישורים</a>
                 </li>
               </ul>
             </div>
           </nav>
         </div>
         <div className="App">
-
              <Users/>  
         </div>
 

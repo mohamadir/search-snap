@@ -33,20 +33,20 @@ export default class Users extends Component {
     render() {
         return (
             <div>
-                <img className="img-circle" style={{ width: "200px", height: "100px" }} src="https://user-images.githubusercontent.com/17565537/34069219-5f5edab0-e254-11e7-9fb3-0530dd6f4fc6.png" />
+                <img className="img-circle" style={{ width: "200px", height: "100px" }} src="http://www.snapgroup.co.il/wp-content/uploads/2017/12/Sglogo4.svg" />
 
-                <div className="App-title">חיפוש משתמשים ב SNAPGROUP</div>
+                <div className="App-title" style={{fontSize:"100%"}}>חיפוש משתמשים ב SNAPGROUP</div>
                 <div className="input-group input-group-lg" style={{ margin: "0 auto", width: "30%", textAlign: "center", marginTop: "20px", marginBottom: "20px" }}>
                     <input
                         className="form-control"
                         type="text"
-                        style={{ textAlign: "center" }}
-                        aria-label="חפש משתמש.."
+                        style={{ textAlign: "center" ,height:"50px"}}
+                        aria-label="חיפוש.."
                         onKeyPress={(event) => {
                             if (event.key == 'Enter')
                                 this.search();
                         }}
-                        placeholder="חפש משתמש.."
+                        placeholder="חיפוש.."
                         onChange={event => {
                             this.setState({ query: event.target.value });
                             if (event.target.value.length == 0)
@@ -58,10 +58,12 @@ export default class Users extends Component {
                     />
 
                 </div >
-                <div>
+                <div id="grad"></div>
+
+               {/*  <div>
                     <button className="btn btn-secondary active" onClick={this.search}>חיפוש</button>
                 </div>
-
+ */}
 
                 <div className="container">
 

@@ -17,3 +17,7 @@ body{
 .App-title{
   font-size: 26px;
 }
+#grad{
+  background: linear-gradient(to right, rgb(253, 253, 253) , #bca23a,#fff);
+  height: 0.5px;  
+}
