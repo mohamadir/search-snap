@@ -1,0 +1,19 @@
+body{
+  direction: rtl;
+  display:"flex";
+  justifyContent:"right";
+  direction: "rtl !important";
+/*   background: #000;
+  color: #fff; */
+}
+.my-nav{
+  direction: rtl;
+}
+.App{
+  
+  text-align: center;
+  padding: 5%;
+}
+.App-title{
+  font-size: 26px;
+}
