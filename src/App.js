@@ -13,7 +13,7 @@ class App extends Component {
 
     return (
       <div>
-        <div className="my-nav">
+        <div className="my-nav" style={{display:"none"}}>
           <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
             <button className="navbar-toggler navbar-toggler-right" direction="rtl" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
